@@ -1,0 +1,107 @@
+.App {
+  width: 720px;
+  border: 2px solid gray;
+  text-align: center;
+  margin: 25px auto 12px;
+  overflow-y: scroll;
+  max-height: 300px;
+}
+.mainTable {
+  border-collapse: collapse;
+  border: 2px solid gray;
+  width: 700px;
+}
+.tableRow,
+th,
+td {
+  border: 2px solid gray;
+  padding: 4px;
+}
+
+.container {
+  border-collapse: collapse;
+  width: 300px;
+  border: 2px solid gray;
+  text-align: center;
+  margin: 25px auto 12px;
+  padding: 10px;
+  border-radius: 10px;
+  line-height: 40px;
+  box-shadow: 2px 2px 15px #3d3544 inset;
+}
+
+.modalContainer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.modalBox {
+  border-radius: 31px;
+  background: #e0e0e0;
+  box-shadow: inset -12px -12px 28px #afafaf, inset 12px 12px 28px #ffffff;
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+  text-transform: capitalize;
+  position: absolute;
+  top: 250px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+button {
+  background-color: white;
+  /* color: black; */
+  border-radius: 1em;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 7px 2em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid black;
+  box-shadow: 0 0 0 0 black;
+}
+
+button:hover {
+  transform: translateY(-4px) translateX(-2px);
+  box-shadow: 2px 5px 0 0 black;
+}
+
+button:disabled{
+  color: rgb(206, 82, 82);
+  transform: translateY(0px) translateX(0px);
+  box-shadow: 2px 5px 0 0 currentColor;
+  border: 2px solid currentColor;
+}
+
+button:active {
+  transform: translateY(2px) translateX(1px);
+  box-shadow: 0 0 0 0 black;
+}
+
+.input {
+  color: #8707ff;
+  border: 2px solid #8707ff;
+  border-radius: 10px;
+  padding: 10px 25px;
+  background: transparent;
+  max-width: 190px;
+ }
+ 
+ .input:focus {
+  box-shadow: 2px 2px 15px #b98fe1 inset;
+ }
+
+ .input:active {
+  box-shadow: 2px 2px 15px #8707ff inset;
+ }
+
+ .inputBox{
+  display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 6px;
+    font-size: 17px;
+    font-weight: 600;
+ }
